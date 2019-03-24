@@ -1,0 +1,93 @@
+mission "Olympus Intro 1A"
+	invisible
+	landing
+	destination
+		government "Kor Efret"
+	waypoint Sobarati
+	to offer
+		has "event: Patrol 1"
+	to fail
+		or
+			has "event: Expansion 1"
+			has "Olympus Intro 1B: done"
+	on complete
+		event "Olympus Intro 1"
+		
+mission "Olympus Intro 1B"
+	invisible
+	landing
+	destination
+		government "Kor Efret"
+	waypoint Ferukistek
+	to offer
+		has "event: Patrol 1"
+	to fail
+		or
+			has "event: Expansion 1"
+			has "Olympus Intro 1A: done"
+	on complete
+		event "Olympus Intro 1"
+		
+mission "Olympus Intro 2"
+	name "Strange Sighting"
+	description "Find and capture a JRVS automaton, then bring it's brain back to the Korath scientists."
+	source
+		government "Kor Efret"
+	to offer
+		has "event: Olympus Intro 1"
+	to fail
+		has "event: Expansion 1"
+	on offer
+		conversation
+			`As you're walking through the spaceport you're approached by a well-dressed group of Korath.  The one if the front addresses you.`
+			`	"Excuse me, Captain <last>?  Terribly sorry to disturb you, but we've heard of your exploits and we have a problem that we were hoping you could help us with."`
+			choice
+				`	(Cut them off)`
+					goto cutoff
+				`	(Continue Listening)`
+					goto continue
+			label cutoff
+			`You shake your head while saying`
+			`	"Sorry, not interested."  The Korath makes a sound of displeasure and walks away.`
+				decline
+			label continue
+			`	"We've been encountering strange and hostile ships on the borders of our territories that are not of any design we've ever seen or heard of before.  Our initial scans indicate that these vessels may be autonomous like the dreaded automatons that plague these regions.  If you can capture one and bring it back, or bring back the AI brain inside of it, we would be willing to compensate you generously."`
+			choice
+				`	"I'll keep an eye out."`
+					goto yes
+				`	"Sorry, I think I'll pass."`
+					goto no
+			label yes
+			`The Korath seems pleased.`
+			`	"We are grateful for your interest in this matter."`
+				accept
+			label no
+			`	"Very well.  Have a good day, <first> <last>."`
+				decline
+	on complete
+		outfit "JRVS-AI Module" -1
+		outfit "Bacon Ray" 1
+		"reputation: JRVS" >?= -1
+		conversation
+			`The Korath that you met with earlier greet you on the tarmac and help you cart the massive brain to their labs.  The last one stops and turns to you.`
+			`	"Thank you, Captain <last>.  For your efforts, I present you with this gift."  He hold out a strange looking ray-gun to you.`
+			`	"May you never go hungry again."  The door shuts and you are left confused with a strange device in your hands.`
+			
+mission "Olympus Intro 3"
+	landing
+	invisible
+	to offer
+		has "Olympus Intro 2: done"
+	on offer
+		dialog `You have recieved the BACON RAY™!`
+		dialog `Now any ordinary object can become bacon with the squeeze of the trigger.`
+		dialog ` `
+		dialog ` `
+		dialog `		BACON!`
+		
+	npc kill
+		government JRVS
+		personality heroic vindictive nemesis
+		system Furmeliki
+		fleet "Assault 1"
+		
