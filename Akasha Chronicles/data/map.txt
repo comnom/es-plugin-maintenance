@@ -2407,10 +2407,11 @@ planet "Sharivar Moon"
 	bribe 0
 	
 planet "The Ark Gate North"
-	landscape ""
+	description ""
 
 planet "The Ark Gate Sankrit"
-	landscape ""
+	description ""
 
 planet "The Ark Gate South"
-	landscape ""
+	description ""
+	
