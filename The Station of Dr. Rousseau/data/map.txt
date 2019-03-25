@@ -1,6 +1,6 @@
 
 system "Sepi Kai Wha?"
-	pos -1066.13 -277.286
+	pos -877 -506
 	habitable 1080
 	asteroids "large metal" 1 4.437
 	trade Clothing 290
