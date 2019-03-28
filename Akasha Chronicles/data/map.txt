@@ -1658,7 +1658,7 @@ system Akasha
 	trade Medical 608
 	trade Metal 430
 	trade Plastic 440
-	fleet "Akasha Small" 500
+	fleet "Akashic Small" 500
 	fleet Akashic 1000
 	fleet "Akashic Transport" 500
 	fleet Quarg 2000
@@ -2328,7 +2328,7 @@ planet Sankrit
 	description `	This planet would not be fit for human life, and it is best to stay away from this area as far as possible.`
 	spaceport `You wouldn't go near to their spaceports`
 	shipyard "Sankrit Advanced"
-	outfitter "Sankrit Basic"
+	outfitter "Sankrit Basics"
 	bribe 0
 
 planet "Sankrit Moon"

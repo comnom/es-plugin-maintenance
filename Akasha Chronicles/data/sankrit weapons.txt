@@ -146,8 +146,8 @@ outfit "Sankrit Laser"
 		"hull damage" 20
 	description "Sankrit Laser is a basic equipment on all Akashic ships"
 	
-effect "akashaslaserimpact"
-	sprite "effect/akashaslaserimpact"
+effect "sankritlaserimpact"
+	sprite "effect/sankritlaserimpact"
 		"no repeat"
 		"frame rate" 12
 	"lifetime" 10
