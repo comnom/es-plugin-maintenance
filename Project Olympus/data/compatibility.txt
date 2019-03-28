@@ -1,0 +1,19 @@
+outfitter plugin
+	"JRVS-AI Module"
+	"Sound Cannon"
+	"Bacon Ray"
+	"JRVS-AI Overmind"
+	"Scourge Shot"
+	"Scourge Drill"
+	"Scourge Generator"
+	"Scourge Cooling"
+	"Scourge Thrust"
+	"Scourge Steering"
+	
+
+shipyard plugin
+	"Scourge"
+	"Cyclops"
+	"Gorgon"
+	"Hydra"
+	

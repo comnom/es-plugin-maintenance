@@ -1,0 +1,17 @@
+outfitter plugin
+	"Hyper Ionized Plasma Cannon"
+	"Rapid Fire Plasma Weapon"
+	"Mass Driver"
+	"Inertia Buffered Slug"
+	"S.A.R.C."
+	"Ion Beam"
+	"Ion Beam Turret"
+	"Inertial Damper"
+	"Mass Expansion (Small)"
+	"Polar Core"
+	
+	
+shipyard plugin
+	"Asteroidship"
+	"Broken Mule"
+	
