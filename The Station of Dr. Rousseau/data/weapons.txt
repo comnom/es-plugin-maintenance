@@ -222,7 +222,7 @@ outfit "Disruptor Cannon"
 		sprite "projectile/discan"
 			"frame rate" 3
 		sound "particle"
-		"hit effect" "discan impact"
+		"hit effect" "disruptor impact"
 		"inaccuracy" 1.2
 		"velocity" 12
 		"lifetime" 85
