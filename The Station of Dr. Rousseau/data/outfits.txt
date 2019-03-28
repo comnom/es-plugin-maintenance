@@ -133,9 +133,4 @@ outfit "Extra-dimensional Nexus"
 	"weapon capacity" 200
 	"engine capacity" 200
 	description "This device serves as a gateway to artificially constructed pocket dimensions."
-
-
-
 	
-
-

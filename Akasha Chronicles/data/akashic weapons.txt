@@ -179,4 +179,5 @@ outfit "Quartic Head"
 		"hull damage" 350
 		"hit force" 30
 		"missile strength" 15
-		"blast radius" 20		
+		"blast radius" 20
+		

@@ -59,7 +59,6 @@ event "Agglomerate1"
 		description `"Ursa Polaris Station" is little more than a collection of asteroids at the moment, and you've just parked on it.  With a little luck, this will be an outfitter Mecca one day.`
 
 event "Agglomerate2"
-
 	system Wei
 		object
 			sprite star/k0

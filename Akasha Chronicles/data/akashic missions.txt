@@ -2740,4 +2740,3 @@ mission "Akasha Chronicles End"
 			`Thank you for playing until the end... for now..`
 			`If you have any feedback, let me know on the forum!`
 			
-				

@@ -437,3 +437,4 @@ outfit "Polar Core"
 	"drag" -0.8
 	"capture defense" 20
 	description "Ursa Polaris' crowning outfit uses inertial damping and artificial gravity to contain and manipulate a mass of dark matter with varying results; immense power generation, floating hyperdrive, minor thrust, navigational deflector, and a bit power storage - with very low heat footprint. Of course, actually producing and manipulating dark matter is not without expense, which is reflected in the price point. Note: The dark matter containment field of the Polar Core resonates with your ship's defensive shields, boosting their total capacity. WARNING: THE ABSENCE OF DEFENSIVE SHIELD HARMONICS WILL DESTABILIZE DARK MATTER CONTAINMENT. Unchecked dark matter containment failure results in catastrophic hull integrity collapse. Ship owners equip this outfit at their own risk."
+	

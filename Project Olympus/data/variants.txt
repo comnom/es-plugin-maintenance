@@ -41,3 +41,4 @@ ship "Gorgon" "Gorgon Mk. II"
 	gun "Sunbeam"
 	gun "Sunbeam"
 	gun "Korath Detainer"
+	

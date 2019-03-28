@@ -280,3 +280,4 @@ effect "detainer smoke"
 	"random spin" 5
 	"random velocity" 1
 	"velocity scale" -.01
+	

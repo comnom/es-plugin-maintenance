@@ -291,3 +291,4 @@ outfit "Anti-Matter Turret"
 		"hull damage" 95
 		"turret turn" 4.
 	description "Two Anti-Matter Rifles mounted side by side on a turret to devastating effect."
+	

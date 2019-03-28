@@ -69,3 +69,4 @@ outfit "Lemurian Wings"
 	"engine capacity" -100
 	"turn" 4000
 	"turning energy" 50
+	

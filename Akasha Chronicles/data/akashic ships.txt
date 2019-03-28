@@ -408,3 +408,4 @@ ship "Stellar Depot"
 	explode "large explosion" 35
 	"final explode" "final explosion large"
 	description "The c"
+	

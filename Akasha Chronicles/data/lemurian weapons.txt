@@ -68,3 +68,4 @@ outfit "Lemurian Eyes"
 		"shield damage" 25
 		"hull damage" 25
 		"slowing damage" .1
+		

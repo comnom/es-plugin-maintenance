@@ -91,3 +91,4 @@ outfit "Akashic Cooling"
 	"outfit space" -20
 	"cooling" 65
 	description "The Akashic Cooling  system works with conducted Quartic Metal for the best performance"
+	
