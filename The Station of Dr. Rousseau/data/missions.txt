@@ -3,6 +3,8 @@ mission "Puzzle 3"
 	landing
 	invisible
 	destination "The Station of Dr. Rousseau"
+	to offer
+		"combat rating" > 8000
 	on enter "Sepi Kai Wha?"
 		conversation
 			scene ship/massabachi
