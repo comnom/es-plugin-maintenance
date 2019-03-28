@@ -10,7 +10,7 @@ mission "Puzzle 3"
 			scene ship/massabachi
 			`	You see a ship of unknown design and origin.  It appears to be powered down.  A quick scan reveals that there are no life-signs on-board.`
 	npc kill 
-		government Guardian
+		government Bounty
 		personality derelict
 		ship "Pug Massabachi" "Mother of Necessity"
 		system "Ultima Thule"
@@ -417,8 +417,8 @@ ship "Torchbearer"
 
 fleet "Dwarf"
 	government "Bounty"
-	names "Guardian Fleet"
-	fighters "Patrol"
+	names pirate
+	fighters pirate
 	cargo 15
 	personality
 		heroic nemesis staying waiting unconstrained
@@ -430,8 +430,8 @@ fleet "Dwarf"
 
 fleet "Kraken"
 	government "Bounty"
-	names "The Kraken"
-	fighters "Saber"
+	names pirate
+	fighters pirate
 	cargo 200
 	personality
 		heroic nemesis staying waiting unconstrained
@@ -446,8 +446,8 @@ mission "Bounty Hunting: The Dread Pirate Roberts"
 	to offer
 		"combat rating" > 1200
 	npc 
-		fleet "Guardian Fleet"
+		fleet "Dwarf"
 		system "Sepi Kai Wha?"		
 		personality heroic staying waiting nemesis unconstrained
 		government Bounty
-
+		
