@@ -1,0 +1,87 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Wraith Energy Turret"
+	category "Turrets"
+	cost 5000
+	thumbnail "outfit/quad blaster turret"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	"required crew" 0
+	weapon
+		sprite "projectile/qtorp"
+			"frame rate" 2
+			"random start frame"
+		sound "wraith"
+		"hit effect" "blaster impact"
+		"inaccuracy" 1
+		"turret turn" 3
+		"velocity" 20
+		"lifetime" 150
+		"reload" 90
+		"stream"
+		"firing energy" 350
+		"firing heat" 350
+		"shield damage" 175
+		"hull damage" 175
+	description "A wraith energy turret carries four guns on a single turret mount, dealing significantly more firepower than an ordinary Blaster Turret for ships with enough space to install one and energy to drive it."
+
+outfit "Augmented Wraith Energy Turret"
+	category "Turrets"
+	cost 50000
+	thumbnail "outfit/quad blaster turret"
+	"mass" 250
+	"outfit space" -198
+	"weapon capacity" -200
+	"turret mounts" -1
+	"required crew" 0
+	weapon
+		sprite "projectile/qtorp"
+			"frame rate" 2
+			"random start frame"
+		sound "wraith"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0
+		"velocity" 10
+		"lifetime" 300
+		"reload" 240
+		"stream"
+		"firing energy" 2500
+		"firing heat" 1250
+		"shield damage" 9000
+		"hull damage" 9000
+		"hit force" 500
+		"turret turn" 4.
+	description "An augmented wraith energy turret releases immense amounts of power at high energy cost. However, the blasts are pretty slow."
+
+outfit "Wraith Dart Gun"
+	category "Guns"
+	cost 250
+	thumbnail "outfit/blaster turret"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	"required crew" 0
+	weapon
+		sprite "projectile/blaster"
+		sound "wraithdart"
+		"hit effect" "blaster impact"
+		"inaccuracy" 3
+		"velocity" 20
+		"lifetime" 150
+		"reload" 10
+		"firing energy" 35
+		"firing heat" 35
+		"shield damage" 50
+		"hull damage" 25
+	description "A wraith dart's forward gun, pretty small but it still packs a punch."

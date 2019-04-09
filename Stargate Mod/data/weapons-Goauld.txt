@@ -1,0 +1,93 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Ha'Tak Staff Cannon"
+	category "Turrets"
+	cost 20000
+	thumbnail "outfit/laser turret"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	"required crew" 0
+	weapon
+		sprite "projectile/pulse phaser"
+			"frame rate" 2
+			"random start frame"
+		sound "hatak fire"
+		"hit effect" "bombardment impact"
+		"inaccuracy" 15
+		"turret turn" 3
+		"velocity" 20
+		"lifetime" 150
+		"reload" 90
+		"stream"
+		"firing energy" 100
+		"firing heat" 100
+		"shield damage" 175
+		"hull damage" 175
+	description "The goauld steel most of their technology, so who knows where this came from."
+
+outfit "Enhanced Ha'Tak Staff Cannon"
+	category "Turrets"
+	cost 30000
+	thumbnail "outfit/laser turret"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	"required crew" 0
+	weapon
+		sprite "projectile/pulse phaser"
+			"frame rate" 2
+			"random start frame"
+		sound "hatak fire"
+		"hit effect" "bombardment impact"
+		"inaccuracy" 10
+		"turret turn" 3
+		"velocity" 30
+		"lifetime" 225
+		"reload" 90
+		"stream"
+		"firing energy" 150
+		"firing heat" 150
+		"shield damage" 255
+		"hull damage" 255
+	description "These staff cannons have been enhanced with ancient knowledge to be more powerful. However they don't appear to take up more space."
+
+outfit "Anubis Super Weapon"
+	category "Turrets"
+	cost 300000
+	thumbnail "outfit/core"
+	"mass" 25
+	"outfit space" -500
+	"weapon capacity" -250
+	"turret mounts" -1
+	"required crew" 0
+	weapon
+		sprite "projectile/pulse phaser"
+			"frame rate" 2
+			"random start frame"
+		sound "hatak fire"
+		"hit effect" "bombardment impact"
+		"inaccuracy" 0
+		"turret turn" 0
+		"velocity" 0
+		"lifetime" 1
+		"reload" 150
+		"trigger radius" 500
+		"blast radius" 500
+		"firing energy" 500
+		"firing heat" 1500
+		"shield damage" 3000
+		"hull damage" 3000
+		"ion damage" 50
+		"turret turn" 4.
+	description "This weapon is a massive, devastating weapon that Anubis installed in his supermothership. Located at the top of the mothership, the ship could easily take on and destroy an entire fleet of Ha'tak soon after to decimate the surface of a planet demonstrating just how powerful this weapon is."

@@ -1,0 +1,197 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Drone Launcher"
+	category "Secondary Weapons"
+	cost 10000
+	thumbnail "outfit/torpedo launcher"
+	"mass" 15
+	"outfit space" -50
+	"weapon capacity" -25
+	"gun ports" -1
+	"drone capacity" 500
+	weapon
+		sprite "projectile/torpedo"
+			"frame rate" 2
+			"random start frame"
+		sound "dronefire"
+		ammo "Drone"
+		icon "icon/Drone icon"
+		"stream"
+		"fire effect" "photorp fire"
+		"hit effect" "photorp hit"
+		"die effect" "tiny explosion"
+		"inaccuracy" 25
+		"velocity" 10
+		"random velocity" 25
+		"lifetime" 300
+		"reload" 60
+		"firing energy" 15
+		"firing heat" 25
+		"acceleration" .8
+		"drag" .1
+		"turn" 4
+		"homing" 3
+		"radar tracking" 1
+		"shield damage" 0
+		"hull damage" 250
+		"hit force" 1
+		"piercing" 1
+	description "Drone weapons, known more colloquially as drones, are projectile weapons that serve as the primary weapon system of the Ancients. Drones are capable of penetrating the shields of Goauld Hatak class ships as well as the Ancient upgraded shields of Anubis' capital ship. A single drone can destroy most fighters and cause severe damage to smaller capital ships, while hundreds or thousands can obliterate dozens of vessels with little effort."
+
+outfit "City Drone Launcher"
+	category "Secondary Weapons"
+	cost 1000000
+	thumbnail "outfit/torpedo launcher"
+	"mass" 150
+	"outfit space" -500
+	"weapon capacity" -500
+	"turret mounts" -1
+	"drone capacity" 5000
+	weapon
+		sprite "projectile/torpedo"
+			"frame rate" 2
+			"random start frame"
+		sound "dronefire"
+		"stream"
+		"fire effect" "photorp fire"
+		"hit effect" "photorp hit"
+		"inaccuracy" 15
+		"velocity" 10
+		"random velocity" 25
+		"lifetime" 300
+		"reload" 5
+		"firing energy" 500
+		"firing heat" 25
+		"acceleration" .8
+		"drag" .1
+		"turn" 4
+		"homing" 3
+		"radar tracking" 1
+		"shield damage" 0
+		"hull damage" 200
+		"hit force" 1
+		"piercing" 1
+		"turret turn" 4.
+	description "Unlike the drone launchers of Aurora class ships these have an infinite supply as they can be manufactured inside the city."
+		
+outfit "Drone"
+	plural "Drones"
+	category "Ammunition"
+	cost 500
+	thumbnail "icon/Drone"
+	"mass" .0005
+	"drone capacity" -1
+	description "Using an internal sensor for guidance a drone can penetrate or even bypass all but the most powerful shields and burrow through thick armor with ease while avoiding attempts to shoot them down and avoiding allied targets."
+
+outfit "Shuttle Pulse Weapon"
+	category "Guns"
+	cost 10000
+	thumbnail "outfit/plasma turret"
+	"mass" 150
+	"outfit space" -10
+	"weapon capacity" -25
+	"gun ports" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/pulse phaser"
+			"frame rate" 2
+			"random start frame"
+		sound "DestinyPulse1"
+		"stream"
+		"hit effect" "bombardment impact"
+		"inaccuracy" 1
+		"velocity" 100
+		"lifetime" 4
+		"reload" 15
+		"firing energy" 15
+		"firing heat" 15
+		"shield damage" 50
+		"hull damage" 50
+	description "The Ancient Shuttle pulse weapons are energy weapons installed on Ancient shuttles. They are very similar to Destiny's Pulse weapons."
+
+outfit "Anti-Fighter Pulse Turret"
+	category "Turrets"
+	cost 10000
+	thumbnail "outfit/plasma turret"
+	"mass" 150
+	"outfit space" -10
+	"weapon capacity" -25
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/pulse phaser"
+			"frame rate" 2
+			"random start frame"
+		sound "DestinyPulse1"
+		"stream"
+		"hit effect" "bombardment impact"
+		"inaccuracy" 1
+		"velocity" 100
+		"lifetime" 4
+		"reload" 15
+		"firing energy" 15
+		"firing heat" 15
+		"shield damage" 50
+		"hull damage" 50
+		"turret turn" 4.
+	description "These turrets appear to be designed as anti-fighter weapons, able to fire rapidly and track fast moving targets. When activated, the double barreled weapons rise up from the hull and the turret pods open to reveal the weapons inside."
+
+outfit "Long-Range Pulse Turret"
+	category "Turrets"
+	cost 20000
+	thumbnail "outfit/repeater turret"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/AncientPulse"
+		sound "DestinyPulse2"
+		"hit effect" "pulse impact"
+		"inaccuracy" 15
+		"turret turn" 3
+		"velocity" 75
+		"lifetime" 10.666666666
+		"reload" 20
+		"firing energy" 30
+		"firing heat" 30
+		"shield damage" 100
+		"hull damage" 100
+	description "These long-range pulse weapons are a type of energy weapon utilized on the Aurora-class battleships and cruisers utilized by the Asurans as well as an older model found on the Destiny starship, though they are presumably equipped on the Lantean variants of these craft as well."
+
+outfit "Heavy Pulse Gun"
+	category "Guns"
+	cost 40000
+	thumbnail "outfit/bombardment turret"
+	"mass" 150
+	"outfit space" -25
+	"weapon capacity" -24
+	"gun ports" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/torpedo"
+			"frame rate" 2
+			"random start frame"
+		sound "DestinyPulse3"
+		"stream"
+		"fire effect" "photorp fire"
+		"hit effect" "photorp hit"
+		"inaccuracy" 2
+		"velocity" 25
+		"lifetime" 75
+		"reload" 25
+		"firing energy" 50
+		"firing heat" 50
+		"shield damage" 750
+		"hull damage" 500
+		"hit force" 500
+	description "This weapon appears to be designed for attacking larger spacecraft such as motherships, as it has no apparent means of aiming horizontally and fires at a much slower rate. However, its shots are clearly superior to those of the double-barreled turrets, based on the effects it had on the shields of the Nakai mothership compared to the smaller turrets."

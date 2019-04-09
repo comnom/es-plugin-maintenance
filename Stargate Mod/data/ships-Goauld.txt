@@ -1,0 +1,177 @@
+# Copyright (c) 2014-2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "Ha'Tak"
+	sprite "ship/Hatak"
+	attributes
+		category "Light Warship"
+		"cost" 600000
+		"shields" 2000
+		"hull" 1000
+		"shield generation" 10
+		"hull repair rate" 1
+		"required crew" 12
+		"bunks" 2100
+		"mass" 150
+		"drag" 10
+		"heat dissipation" .7
+		"fuel capacity" 1000
+		"cargo space" 700
+		"outfit space" 1000
+		"weapon capacity" 150
+		"energy capacity" 10000
+		"energy generation" 25
+		"heat generation" 10
+		"ramscoop" 10
+		"turn" 1200
+		"thrust" 50
+		"reverse thrust" 50
+		"turning energy" 5
+		"thrusting energy" 5
+		"reverse thrusting energy" 5
+		"turning heat" 5
+		"thrusting heat" 5
+		"reverse thrusting heat" 5
+		"shield energy" 5
+		"shield heat" 5
+	outfits	
+		"Interstellar Hyperdrive"
+		"Ha'Tak Staff Cannon" 6
+	turret -13.5 -42.5
+	turret -46.5 14
+	turret -31 40.5
+	turret 17.5 -42.5
+	turret 35 41.5
+	turret 50 14
+	explode "tiny explosion" 15
+	explode "small explosion" 15
+	explode "medium explosion" 15
+	explode "large explosion" 8
+	explode "huge explosion" 3
+	"final explode" "final explosion large"
+	description "The Ha'tak is a class of spaceship designed by the Goa'uld. During the reign of the Goa'uld empire in the Milky Way galaxy, the Ha'tak served as the main class of capital ship employed by most Goa'uld System Lords. During the height of the Goa'uld empire, the Ha'tak was among the most powerful vessels in the Milky Way, with hundreds having been positioned around the galaxy as to cement and project the power of the Goa'uld empire. Following the fall of the Goa'uld empire in 2005, the Ha'tak's presence in the galaxy endured, being adopted as the main battleship of the Free Jaffa Nation."
+
+ship "Apophis Ha'Tak"
+	sprite "ship/Apophis"
+	attributes
+		category "Medium Warship"
+		"cost" 600000
+		"shields" 3000
+		"hull" 2000
+		"shield generation" 10
+		"hull repair rate" 1
+		"required crew" 12
+		"bunks" 2100
+		"mass" 300
+		"drag" 10
+		"heat dissipation" .7
+		"fuel capacity" 1000
+		"cargo space" 700
+		"outfit space" 1000
+		"weapon capacity" 300
+		"energy capacity" 10000
+		"energy generation" 25
+		"heat generation" 10
+		"ramscoop" 15
+		"turn" 1200
+		"thrust" 50
+		"reverse thrust" 50
+		"turning energy" 5
+		"thrusting energy" 5
+		"reverse thrusting energy" 5
+		"turning heat" 5
+		"thrusting heat" 5
+		"reverse thrusting heat" 5
+		"shield energy" 5
+		"shield heat" 5
+	outfits	
+		"Interstellar Hyperdrive"
+		"Enhanced Ha'Tak Staff Cannon" 12
+	turret 43.5 36 "Enhanced Ha'Tak Staff Cannon"
+	turret 57 13 "Enhanced Ha'Tak Staff Cannon"
+	turret 14 -63 "Enhanced Ha'Tak Staff Cannon"
+	turret -14 -63 "Enhanced Ha'Tak Staff Cannon"
+	turret -57 13 "Enhanced Ha'Tak Staff Cannon"
+	turret -43 36 "Enhanced Ha'Tak Staff Cannon"
+	turret 111 -51 "Enhanced Ha'Tak Staff Cannon"
+	turret 95 -78 "Enhanced Ha'Tak Staff Cannon"
+	turret -95 -78 "Enhanced Ha'Tak Staff Cannon"
+	turret -111 -51 "Enhanced Ha'Tak Staff Cannon"
+	turret -16 115 "Enhanced Ha'Tak Staff Cannon"
+	turret 16 115 "Enhanced Ha'Tak Staff Cannon"
+	explode "tiny explosion" 15
+	explode "small explosion" 15
+	explode "medium explosion" 15
+	explode "large explosion" 8
+	explode "huge explosion" 3
+	"final explode" "final explosion large"
+	description "This Ha'tak design was made during Apophis' stay with Sokar who for all intents and purposes is the devil."
+	
+ship "Anubis Ha'Tak"
+	sprite "ship/Anubis"
+	attributes
+		category "Heavy Warship"
+		"cost" 600000
+		"shields" 3000
+		"hull" 2000
+		"shield generation" 25
+		"hull repair rate" 1
+		"required crew" 18
+		"bunks" 2100
+		"mass" 300
+		"drag" 30
+		"heat dissipation" .7
+		"fuel capacity" 1000
+		"cargo space" 1000
+		"outfit space" 1000
+		"weapon capacity" 750
+		"energy capacity" 15000
+		"energy generation" 50
+		"heat generation" 10
+		"ramscoop" 10
+		"turn" 1200
+		"thrust" 100
+		"reverse thrust" 100
+		"turning energy" 10
+		"thrusting energy" 10
+		"reverse thrusting energy" 10
+		"turning heat" 10
+		"thrusting heat" 10
+		"reverse thrusting heat" 10
+		"shield energy" 25
+		"shield heat" 10
+	outfits	
+		"Interstellar Hyperdrive"
+		"Enhanced Ha'Tak Staff Cannon" 16
+		"Anubis Super Weapon"
+	turret 0 0 "Anubis Super Weapon"
+	turret -135 -22 "Enhanced Ha'Tak Staff Cannon"
+	turret -135 22 "Enhanced Ha'Tak Staff Cannon"
+	turret 135 -22 "Enhanced Ha'Tak Staff Cannon"
+	turret 135 22 "Enhanced Ha'Tak Staff Cannon"
+	turret -85 -115 "Enhanced Ha'Tak Staff Cannon"
+	turret -115 -80 "Enhanced Ha'Tak Staff Cannon"
+	turret 85 115 "Enhanced Ha'Tak Staff Cannon"
+	turret 115 80 "Enhanced Ha'Tak Staff Cannon"
+	turret 85 -115 "Enhanced Ha'Tak Staff Cannon"
+	turret 115 -80 "Enhanced Ha'Tak Staff Cannon"
+	turret -85 115 "Enhanced Ha'Tak Staff Cannon"
+	turret -115 80 "Enhanced Ha'Tak Staff Cannon"
+	turret 25 -145 "Enhanced Ha'Tak Staff Cannon"
+	turret -25 -145 "Enhanced Ha'Tak Staff Cannon"
+	turret 25 145 "Enhanced Ha'Tak Staff Cannon"
+	turret -25 145 "Enhanced Ha'Tak Staff Cannon"
+	explode "tiny explosion" 15
+	explode "small explosion" 15
+	explode "medium explosion" 15
+	explode "large explosion" 8
+	explode "huge explosion" 3
+	"final explode" "final explosion large"
+	description "This Ha'Tak design was made for the purpose of using the super weapon at it's center. Even though it takes a great amount of power it is absolutely deviating destroying anything within range. However, prolonged use can cause the weapon to overheat, not to mention drain one's power reserves rather quickly."

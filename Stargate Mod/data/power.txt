@@ -1,0 +1,23 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "ZPM"
+	category "Power"
+	cost 250000000
+	thumbnail "outfit/ZPM"
+	"mass" 0.1
+	"outfit space" 0
+	"energy capacity" 50000
+	"energy generation" 333.33333333333
+	"ramscoop" 500
+	"shield generation" 166.66666666666
+	"shield energy" 166.66666666666
+	"shield heat" 166.66666666666
+	description "The power of the ZPM greatly enhances one's energy and shield generating ability. It is also a good alternative to fuel."

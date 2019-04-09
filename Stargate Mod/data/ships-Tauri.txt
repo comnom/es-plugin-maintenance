@@ -1,0 +1,143 @@
+# Copyright (c) 2014-2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "BC-304"
+	sprite "ship/Daedalus"
+	attributes
+		category "Medium Warship"
+		"cost" 1000000000
+		"shields" 15000
+		"hull" 15000
+		"shield generation" 5
+		"hull repair rate" 1
+		"required crew" 4
+		"bunks" 300
+		"mass" 110
+		"drag" 6.3
+		"heat dissipation" 1.5
+		"fuel capacity" 1500
+		"cargo space" 3000
+		"outfit space" 400
+		"weapon capacity" 500
+		"engine capacity" 0
+		"energy generation" 5
+		"heat generation" 5
+		"turn" 630
+		"thrust" 31.5
+		"reverse thrust" 15.75
+		"energy capacity" 10000
+		"energy generation" 50
+		"heat generation" 25
+		"ramscoop" 50
+		"reverse thrusting energy" 2.5
+		"reverse thrusting heat" 2.5
+		"thrusting energy" 5
+		"thrusting heat" 5
+		"turning energy" 5
+		"turning heat" 5
+		"shield energy" 5
+		"shield heat" 5
+	outfits	
+		"Intergalactic Hyperdrive"
+		"Asgard Plasma Beam Weapon" 4
+		"Tauri Railgun" 8
+		"Railgun Slug" 4800
+		"Heavy Rocket Launcher" 16
+		"Heavy Rocket" 320
+	turret -7 -69 "Asgard Plasma Beam Weapon"
+	turret 7 -69 "Asgard Plasma Beam Weapon"
+	turret -20 30 "Asgard Plasma Beam Weapon"
+	turret 20 30 "Asgard Plasma Beam Weapon"
+	turret -14 20 "Tauri Railgun"
+	turret -19.5 30 "Tauri Railgun"
+	turret 14 20 "Tauri Railgun"
+	turret 19.5 30 "Tauri Railgun"
+	turret -7 -71 "Tauri Railgun"
+	turret 7 -71 "Tauri Railgun"
+	turret -15 -40 "Tauri Railgun"
+	turret 15 -40 "Tauri Railgun"
+	gun -2.5 -50 "Heavy Rocket Launcher"
+	gun -2.5 -45 "Heavy Rocket Launcher"
+	gun -2.5 -40 "Heavy Rocket Launcher"
+	gun -2.5 -35 "Heavy Rocket Launcher"
+	gun -2.5 -30 "Heavy Rocket Launcher"
+	gun -2.5 -25 "Heavy Rocket Launcher"
+	gun -2.5 -20 "Heavy Rocket Launcher"
+	gun -2.5 -15 "Heavy Rocket Launcher"
+	gun 2.5 -50 "Heavy Rocket Launcher"
+	gun 2.5 -45 "Heavy Rocket Launcher"
+	gun 2.5 -40 "Heavy Rocket Launcher"
+	gun 2.5 -35 "Heavy Rocket Launcher"
+	gun 2.5 -30 "Heavy Rocket Launcher"
+	gun 2.5 -25 "Heavy Rocket Launcher"
+	gun 2.5 -20 "Heavy Rocket Launcher"
+	gun 2.5 -15 "Heavy Rocket Launcher"
+	fighter 36 20 under
+	fighter -36 20 under
+	fighter 36 20 under
+	fighter -36 20 under
+	fighter 36 20 under
+	fighter -36 20 under
+	fighter 36 20 under
+	fighter -36 20 under
+	explode "tiny explosion" 15
+	explode "small explosion" 15
+	explode "medium explosion" 15
+	explode "large explosion" 8
+	explode "huge explosion" 3
+	"final explode" "final explosion large"
+	description "The Daedalus was the first BC-304 produced by the Tau'ri and the second generation of interstellar capital ship developed by the United States military. Assigned to the Fast Attack Wing, her standard mission was to ferry equipment and personnel between Earth and Atlantis, assisting the Atlantis expedition as needed."
+
+ship "F302"
+	sprite "ship/F302"
+	attributes
+		category "Fighter"
+		"cost" 500
+		"hull" 1000
+		"hull repair rate" 0
+		"required crew" 1
+		"bunks" 2
+		"mass" 12
+		"drag" 2
+		"heat dissipation" 1.9
+		"fuel capacity" 90
+		"engine capacity" 15
+		"cargo space" 5
+		"outfit space" 75
+		"weapon capacity" 60
+		"energy generation" 5
+		"heat generation" 1
+		"energy capacity" 5000
+		"turn" 60
+		"thrust" 5
+		"reverse thrust" 2.5
+		"turning energy" 1
+		"thrusting energy" 1
+		"reverse thrusting energy" 1
+		"turning heat" 1
+		"thrusting heat" 1
+		"reverse thrusting heat" 1
+		"rocket capacity" -78
+	outfits	
+		"Afterburner"
+		"Tauri Railgun" 4
+		"Heavy Rocket Launcher" 2
+		"Heavy Rocket" 2
+	engine 0 0 
+	turret -3 1 "Tauri Railgun"
+	gun -5 1.5 "Heavy Rocket Launcher"
+	turret -7 2 "Tauri Railgun"
+	turret 3 1 "Tauri Railgun"
+	gun 5 1.5 "Heavy Rocket Launcher"
+	turret 7 2 "Tauri Railgun"
+	explode "tiny explosion" 5
+	explode "small explosion" 1
+	"final explode" "final explosion small"
+	description "This puddle jumper has been modified to include a hyperdrive, but the amount of power required only gives 1, maybe 2 jumps if you're lucky."

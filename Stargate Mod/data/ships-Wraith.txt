@@ -1,0 +1,397 @@
+# Copyright (c) 2014-2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "Wraith Cruiser" 
+	sprite "ship/wraithcruiser" 
+	attributes 
+		category "Light Warship" 
+		"cost" 500000 
+		"shields" 0 
+		"hull" 12500 
+		"hull repair rate" 10.4166666666666666
+		"hull energy" 10.4166666666666666
+		"hull heat" 10.4166666666666666
+		"required crew" 1
+		"bunks" 800 
+		"mass" 2045.475
+		"drag" 20.45475
+		"heat dissipation" 0.9
+		"energy generation" 41.666666666666666
+		"heat generation" 24
+		"fuel capacity" 200 
+		"cargo space" 1000 
+		"outfit space" 150
+		"weapon capacity" 150 
+		"energy capacity" 12500 
+		"ramscoop" 25
+		"turn" 2045.475
+		"thrust" 127.842187
+		"reverse thrust" 51.136875
+		"turning energy" 3
+		"thrusting energy" 3
+		"reverse thrusting energy" 1.5
+		"turning heat" 3
+		"thrusting heat" 3
+		"reverse thrusting heat" 1.5
+		weapon
+			"blast radius" 88
+			"shield damage" 2500
+			"hull damage" 2500
+			"hit force" 750
+	outfits 
+		"Interstellar Hyperdrive" 
+		"Wraith Energy Turret" 6
+	turret 15 -40 "Wraith Energy Turret"
+	turret -15 -40 "Wraith Energy Turret"
+	turret 20 -25 "Wraith Energy Turret"
+	turret -20 -25 "Wraith Energy Turret"
+	turret 25 -15 "Wraith Energy Turret"
+	turret -25 -15 "Wraith Energy Turret"
+	fighter 30 20 under right
+	fighter -30 20 under left
+	fighter 30 20 under right
+	fighter -30 20 under left
+	fighter 30 20 under right
+	fighter -30 20 under left
+	fighter 30 20 under right
+	fighter -30 20 under left
+	fighter 30 20 under right
+	fighter -30 20 under left
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	explode "medium explosion" 1
+	"final explode" "final explosion medium"
+	description "Wraith cruisers are typically seen to escort Hive ships during assaults or when feeding on a Human world. When their Hive ships are destroyed, the escorting cruisers typically abandon the battlefield by escaping into hyperspace. Beyond this role, they are also seen in the role of patrol ships that are sent to investigate disturbances near Wraith territory. They are also sent alone against Human worlds in order to cull its inhabitants that are incapable of mounting a defense against the vessel. Similar to other Wraith vessels, they apparently do not possess shields and instead rely on their organic hull to protect them from damage."
+
+ship "Wraith Hive" 
+	sprite "ship/wraithhive" 
+	attributes 
+		category "Medium Warship" 
+		"cost" 5000000 
+		"shields" 0 
+		"hull" 50000 
+		"hull repair rate" 41.6666666666666
+		"hull energy" 41.6666666666666
+		"hull heat" 41.6666666666666
+		"required crew" 1
+		"bunks" 2000 
+		"mass" 8181.9
+		"drag" 163.638
+		"heat dissipation" 0.6
+		"energy generation" 100
+		"heat generation" 240
+		"fuel capacity" 200 
+		"cargo space" 10000 
+		"outfit space" 400 
+		"weapon capacity" 400 
+		"energy capacity" 50000 
+		"ramscoop" 25
+		"turn" 4090.95
+		"thrust" 818.19
+		"reverse thrust" 204.5475
+		"turning energy" 30
+		"thrusting energy" 30
+		"reverse thrusting energy" 15
+		"turning heat" 30
+		"thrusting heat" 30
+		"reverse thrusting heat" 15
+		weapon
+			"blast radius" 880
+			"shield damage" 25000
+			"hull damage" 25000
+			"hit force" 7500
+	outfits 
+		"Interstellar Hyperdrive" 
+		"Wraith Energy Turret" 16
+	turret 34 -152 "Wraith Energy Turret"
+	turret -34 -152 "Wraith Energy Turret"
+	turret 43 -133.5 "Wraith Energy Turret"
+	turret -43 -133.5 "Wraith Energy Turret"
+	turret 53.5 -108 "Wraith Energy Turret"
+	turret -53.5 -108 "Wraith Energy Turret"
+	turret 61.5 -81 "Wraith Energy Turret"
+	turret -61.5 -81 "Wraith Energy Turret"
+	turret 68 -58.5 "Wraith Energy Turret"
+	turret -68 -58.5 "Wraith Energy Turret"
+	turret 73 -38.5 "Wraith Energy Turret"
+	turret -73 -38.5 "Wraith Energy Turret"
+	turret 79 -13 "Wraith Energy Turret"
+	turret -79 -13 "Wraith Energy Turret"
+	turret 79 14.5 "Wraith Energy Turret"
+	turret -79 14.5 "Wraith Energy Turret"
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	fighter 90 84.5 under right
+	fighter -90 84.5 under left
+	explode "tiny explosion" 15
+	explode "small explosion" 15
+	explode "medium explosion" 5
+	explode "big explosion" 1
+	"final explode" "wraith explosion"
+	description "A Hive ship is a massive Wraith mothership capable of carrying thousands of Wraith along with their Wraith Dart fighters. Large parts of their internal structure are used to house organic cocoons in which Humans may be stored for later feeding. There are a number of corridors within the large vessel with a fine mist covering the floor. Hive ships are one of the largest ships known to exist."
+	
+ship "Wraith Superhive" 
+	sprite "ship/superhive"
+	attributes 
+		category "Heavy Warship" 
+		"cost" 50000000
+		"shields" 0 
+		"shield generation" -500
+		"shield energy" -500
+		"shield heat" -500
+		"hull" 200000 
+		"hull repair rate" 166.666666666666666
+		"hull energy" 166.666666666666666
+		"hull heat" 166.666666666666666
+		"fuel capacity" 800
+		"cargo scan power" 10000
+		"cargo scan speed" 10000
+		"outfit scan power" 10000
+		"outfit scan speed" 10000
+		"required crew" 1 
+		"bunks" 8000
+		"mass" 16363.8
+		"drag" 163.638
+		"heat dissipation" 0.5
+		"outfit space" 4000
+		"weapon capacity" 4000
+		"heat generation" 240
+		"cargo space" 40000
+		"energy capacity" 200000
+		"turn" 18000
+		"thrust" 900
+		"reverse thrust" 450
+		"turning energy" 120
+		"thrusting energy" 120
+		"reverse thrusting energy" 60
+		"turning heat" 120
+		"thrusting heat" 120
+		"reverse thrusting heat" 60
+		weapon
+			"blast radius" 1760
+			"shield damage" 20000
+			"hull damage" 20000
+			"hit force" 30000
+	outfits 
+		"Intergalactic Hyperdrive" 
+		"ZPM" 3
+		"Augmented Wraith Energy Turret" 20
+	turret 65 -315 "Augmented Wraith Energy Turret"
+	turret -65 -315 "Augmented Wraith Energy Turret"
+	turret 75 -300 "Augmented Wraith Energy Turret"
+	turret -75 -300 "Augmented Wraith Energy Turret"
+	turret 85 -280 "Augmented Wraith Energy Turret"
+	turret -85 -280 "Augmented Wraith Energy Turret"
+	turret 95 -260 "Augmented Wraith Energy Turret"
+	turret -95 -260 "Augmented Wraith Energy Turret"
+	turret 105 -235 "Augmented Wraith Energy Turret"
+	turret -105 -235 "Augmented Wraith Energy Turret"
+	turret 115 -200 "Augmented Wraith Energy Turret"
+	turret -115 -200 "Augmented Wraith Energy Turret"
+	turret 125 -160 "Augmented Wraith Energy Turret"
+	turret -125 -160 "Augmented Wraith Energy Turret"
+	turret 135 -130 "Augmented Wraith Energy Turret"
+	turret -135 -130 "Augmented Wraith Energy Turret"
+	turret 145 -90 "Augmented Wraith Energy Turret"
+	turret -145 -90 "Augmented Wraith Energy Turret"
+	turret 150 30 "Augmented Wraith Energy Turret"
+	turret -150 30 "Augmented Wraith Energy Turret"
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	fighter 155 225 under right
+	fighter -155 225 under left
+	explode "tiny explosion" 15
+	explode "small explosion" 15
+	explode "medium explosion" 5
+	explode "big explosion" 1
+	"final explode" "wraith explosion"
+	description "The superhive is a Wraith hive ship that was modified to draw energy from Zero Point Modules. With the abundance of new energy, the Hive has increased incredibly in size and power. The original was eventually destroyed over Earth during the Battle of the Super-hive by Lt. Colonel John Sheppard with an F-302 fighter-interceptor, which had a Nuclear warhead, he snuck on board the Hive."
+
+ship "Dart" 
+	sprite "ship/Dart"
+	attributes 
+		category "Fighter" 
+		"cost" 500 
+		"shields" 0 
+		"hull" 500 
+		"hull repair rate" 0.41666666666666666
+		"hull energy" 0.41666666666666666
+		"hull heat" 0.41666666666666666
+		"required crew" 1
+		"bunks" 1000 
+		"mass" 10
+		"drag" 1
+		"heat dissipation" 2
+		"fuel capacity" 0
+		"cargo space" 100
+		"outfit space" 25
+		"weapon capacity" 25
+		"energy generation" 6
+		"heat generation" 1
+		"energy capacity" 1000
+		"fuel capacity" 100
+		"outfit space" 50 
+		"weapon capacity" 25 
+		"turn" 50
+		"turning energy" 1
+		"turning heat" 1
+		"thrust" 5
+		"reverse thrust" 2.5
+		"reverse thrusting energy" 0.1
+		"reverse thrusting heat" 0.1
+		"thrusting energy" 1
+		"thrusting heat" 1
+	outfits 
+		"Wraith Dart Gun" 1
+	gun 0.5 -15.5 "Wraith Dart Gun"
+	"final explode" "medium explosion"
+	description "Wraith Darts are single-pilot ships used by the Wraith both for combat missions or culling human planets. Darts are also used as fighters deployed against other ships of similar size, to attack a bigger target in large swarms or to protect their mothership."

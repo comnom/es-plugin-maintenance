@@ -1,0 +1,57 @@
+# Copyright (c) 2014-2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+	
+ship "Ori Warship"
+	sprite "ship/Ori"
+	attributes
+		category "Heavy Warship"
+		"cost" 1000000000
+		"shields" 500000
+		"hull" 15000
+		"shield generation" 25
+		"hull repair rate" 2.8
+		"required crew" 1
+		"bunks" 300
+		"mass" 900
+		"drag" 18
+		"heat dissipation" .9
+		"fuel capacity" 20000
+		"cargo space" 3000
+		"outfit space" 10000
+		"weapon capacity" 5000
+		"energy capacity" 50000
+		"energy generation" 250
+		"heat generation" 50
+		"ramscoop" 5000
+		"turn" 500
+		"thrust" 90
+		"reverse thrust" 45
+		"turning energy" 25
+		"thrusting energy" 25
+		"reverse thrusting energy" 25
+		"turning heat" 15
+		"thrusting heat" 15
+		"reverse thrusting heat" 15
+		"shield energy" 30
+		"shield heat" 30
+	outfits	
+		"Intergalactic Hyperdrive"
+		"Ori Turret" 1
+		"Ori Beam Cannon" 1
+	turret 0 -176.5 "Ori Beam Cannon"
+	turret 0 159 "Ori Turret"
+	explode "tiny explosion" 15
+	explode "small explosion" 15
+	explode "medium explosion" 15
+	explode "large explosion" 8
+	explode "huge explosion" 3
+	explode "nuke explosion" 2
+	"final explode" "final explosion large"
+	description "These white colored vessels are some of the largest ever encountered by Stargate Command being much larger than the Daedalus-class and Ha'tak vessels. They consist of an oval shaped structure with a large Stargate styled ring in the center which glows with a white light. Two engines are present at the back of the vessel. Though quite large, they were capable of entering a planet's atmosphere and landing, where they towered over the landscape."

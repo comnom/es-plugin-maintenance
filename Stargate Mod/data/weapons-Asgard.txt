@@ -1,0 +1,68 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Asgard Ion Cannon"
+	category "Guns"
+	cost 450000
+	thumbnail "outfit/heavy laser"
+	"mass" 6
+	"outfit space" 0
+	"weapon capacity" -25
+	"gun ports" -1
+	weapon
+		"cluster"
+		sprite "projectile/qtorp"
+			"frame rate" 2
+			"random start frame"
+		sound "Asgard Ion Cannon"
+		"fire effect" "qtorp fire"
+			"frame rate" 2
+		"hit effect" "piercer impact"
+			"frame rate" 2
+		"velocity" 50
+		"lifetime" 25
+		"reload" 30
+		"stream"
+		"firing energy" 125
+		"firing heat" 22.5
+		"shield damage" 250
+		"hull damage" 250
+		"inaccuracy" 0.1
+	description "A closely guarded secret, these weapons are rather powerful, so much so in fact that they can only fire straight."
+
+outfit "Asgard Plasma Beam Weapon"
+	category "Turrets"
+	cost 1600000
+	thumbnail "outfit/laser turret"
+	"mass" 12.5
+	"outfit space" 0
+	"weapon capacity" -25
+	"turret mounts" -1
+	weapon
+		sprite "projectile/Asgard Beam"
+			"frame rate" 20
+			"random start frame"
+		"fire effect" "phaser fire"
+		sound "asgard beam"
+		"hit effect" "phaser beam impact"
+		"inaccuracy" 0
+		"velocity" 900
+		"lifetime" 1
+		"reload" 10
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 100
+		"firing heat" 50
+		"shield damage" 250
+		"hull damage" 250
+		"heat damage" 200
+		"disruption damage" 5
+		"turret turn" 4.
+	description "These plasma beam cannons are in fact the most powerful to date, and can be found on Asgard O'Neill-class ships. Not only do they do amazing damage, but they also disrupt shields. The superheated plasma moving along the hull of a target ship can often contribute heat to the target."

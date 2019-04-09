@@ -1,0 +1,104 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+#outfit "EPS Heat Sink"	
+#outfit "Impulse Supercooler"
+#outfit "EPS Supercooler"
+#outfit "Subspace Heat Sink"
+#outfit "Targeting Jammer"
+#outfit "Heavy Targeting Jammer"
+
+outfit "Ancient Star Map"
+	category "Special"
+	cost 500000
+	thumbnail "outfit/map"
+	"map" 12000
+	description "This data chip supposedly contains information on 12,000 star systems closest to this one: planets, ports, governments, trade prices, available services, etc. Unfortunately it seems to be limited, perhaps some sort of damage, it is over 10,000 years old after all. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
+
+
+outfit "Interstellar Hyperdrive"
+	category "Systems"
+	cost 70000
+	thumbnail "outfit/hyperdrive"
+	"mass" 20
+	"outfit space" 0
+	"jump speed" 1
+	"jump fuel" 100
+	"hyperdrive" 1
+	description "A hyperdrive allows a vessel to open a subspace window and move into hyperspace. In this manner, a ship can cross vast distances without experiencing relativity. Hyperdrives vary in their effectiveness from race to race, with some being much faster than others; most hyperdrives are designed to travel within a single galaxy, while more advanced models can travel between galaxies in the same amount of time. This is not one of them."
+	
+outfit "Intergalactic Hyperdrive"
+	category "Systems"
+	cost 900000
+	thumbnail "outfit/hyperdrive"
+	"mass" 30
+	"outfit space" -30
+	"scram drive" .2
+	"jump fuel" 150
+	"hyperdrive" 1
+	description "A hyperdrive allows a vessel to open a subspace window and move into hyperspace. In this manner, a ship can cross vast distances without experiencing relativity. Hyperdrives vary in their effectiveness from race to race, with some being much faster than others; most hyperdrives are designed to travel within a single galaxy, while more advanced models can travel between galaxies in the same amount of time. This is one of them."
+
+outfit "Wormhole Drive"
+	category "Systems"
+	cost 1800000
+	thumbnail "outfit/hyperdrive"
+	"mass" 25
+	"outfit space" -25
+	"jump speed" .1
+	"jump drive" 1
+	"jump fuel" 200
+	description "The wormhole drive creates an artificial wormhole similar to that used by the Stargates, but with the exception that the wormhole does not require objects at either end for power or navigation, but rather the wormhole is sustained by the ship travelling through it. Because the ship using the drive—namely Atlantis—is shielded from the vacuum inside the wormhole, there is no need for a deconstruction/reconstruction interface at either end. This drive allows the vessel to travel between or throughout galaxies almost instantaneously."
+	
+outfit "Destiny Sublight Engine"
+	category "Engines"
+	cost 1800
+	thumbnail "outfit/tiny ion engines"
+	"mass" 25
+	"outfit space" -50
+	"turn" 180
+	"thrust" 22.5
+	"reverse thrust" 11.25
+	"turning energy" 0.2
+	"thrusting energy" 0.2
+	"reverse thrusting energy" 0.1
+	"turning heat" 0.2
+	"thrusting heat" 0.2
+	"reverse thrusting heat" 0.1
+	description "These engines appear to be ancient in design, in every sense of the word."
+
+outfit "FTL Drive"
+	category "Systems"
+	cost 1800
+	thumbnail "outfit/hyperdrive"
+	"mass" 25
+	"outfit space" -125
+	"jump speed" 100
+	"hyperdrive" 1
+	"jump fuel" 600
+	"FTL Drive" 1
+	description "The technology behind the Faster-Than-Light drive has not been fully explained in detail, but does clearly does not function in the same manner as a hyperdrive. When engaged, the ship is quickly accelerated beyond the speed of light, in contrast to hyperdrive which opens a window into hyperspace. The drive's top speed has also not been made clear, though it has been shown to traverse an intergalactic void in a seemingly short amount of time. While the inter-galaxy FTL speed seems comparable to that of an intergalactic hyperdrive (a few weeks to cross a void in either case), the FTL's intra-galaxy speed is also shown as much slower (taking several years to cross a galaxy, instead of about a day). What also must be taken into consideration is the fact that the FTL drives shown on the first Destiny were heavily worn from millions of years of continuous use, so the drives top speed when it was newly constructed must have been a lot higher."
+
+outfit "Photosphere Collector"
+	category "Power"
+	cost 180
+	thumbnail "outfit/tiny photovoltaic"
+	"mass" 25
+	"outfit space" -25
+	"solar collection" 1.1
+	description "This photosphere collector absorbs the intense light of a star for electrical usage."
+
+outfit "Photosphere Collectors"
+	category "Power"
+	cost 1800
+	thumbnail "outfit/small photovoltaic"
+	"mass" 250
+	"outfit space" -250
+	"solar collection" 11
+	description "These photosphere collectors absorb the intense light of a star for electrical usage."
